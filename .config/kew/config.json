@@ -1,0 +1,6 @@
+{
+  "theme": "themes/pywal.json",
+  "font": "monospace 12",
+  "cursor_blink": true,
+  "opacity": 1.0
+}

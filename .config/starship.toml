@@ -1,0 +1,46 @@
+# Starship configuration
+format = """
+  ♤ $directory\
+$character"""
+
+[directory]
+# Show ~ for home directory and full path
+home_symbol = "~"
+truncate_to_repo = false
+style = "bold cyan"
+format = "[$path]($style)"
+
+
+# Disable other modules to keep it minimal
+[git_branch]
+disabled = true
+
+[git_status]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[python]
+disabled = true
+
+[rust]
+disabled = true
+
+[java]
+disabled = true
+
+[golang]
+disabled = true
+
+[php]
+disabled = true
+
+[ruby]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[kubernetes]
+disabled = true

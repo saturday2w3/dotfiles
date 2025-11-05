@@ -1,0 +1,21 @@
+{
+  "add a plugin dialog": "/home/saturday2/Downloads",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "8.13"
+    ]
+  },
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

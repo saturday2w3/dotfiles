@@ -1,0 +1,33 @@
+[global]
+    # Font and size
+    font = JetBrainsMono Nerd Font 14
+    # Transparency (0 = opaque, 1 = fully transparent)
+    transparency = 15
+    # Geometry: width of notification (px)
+    width = 350
+    # Corner radius
+    frame_width = 1
+    separator_height = 0
+    padding = 12
+    # Background blur is not supported natively in dunst,
+    # but you can use a compositor like picom for blur
+    # Dunst will respect your compositor's blur on transparent backgrounds
+    # So the key is to set transparency + dark background
+
+[urgency_low]
+    background = "#1E232D"  # matches your window rgba(30,35,45)
+    foreground = "#FFFFFF"
+    frame_color = "#FFFFFF22"  # subtle border
+    timeout = 5
+
+[urgency_normal]
+    background = "#1E232D"
+    foreground = "#FFFFFF"
+    frame_color = "#FFFFFF22"
+    timeout = 8
+
+[urgency_critical]
+    background = "#D13D3D"  # red for critical
+    foreground = "#FFFFFF"
+    frame_color = "#FFFFFF"
+    timeout = 0

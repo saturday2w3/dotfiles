@@ -1,0 +1,116 @@
+continue from :help usr_05.txt, continue from 5.7
+
+
+Normal mode
+	Deleting a line break		J
+	undo		u
+	redo		<C + r>
+	undo line	U
+	new line below and insert mode		o
+	new line above and insert mode		O
+	using count		9k, 3j, 2l, 4h, 3x (delete 3 characters)
+	save and exit or close help		ZZ
+	follow tag link			<C + ]>
+	go back from link		<C + O>
+	next word		w
+	next end of word		e
+	previous word		b
+	previous end of word		ge
+	next word skip whitespace		W
+	next end of word skip whitespace	E
+	previous word skip whitespace		B
+	previous end of word skip whitespace		gE
+	start of line		0
+	end of line		$
+	first char of line		^
+	moving to char		f{character}
+	moving to char from left		F{character}
+	jump up to		t{character}, T{character}
+	repeat fowards		:
+	repeate backwords	,
+	copy up to including character		yf{character}
+	copy up character		yt{character}
+	move to matching bracket		%
+	go to start of file		gg
+	go to end of file		G
+	go to specific line		100G (goes to line 100)
+	go back to where you came from G		`` (double back ticks)
+	jump to old position		<C + O> (for jumping around when using G)
+	jump to position		<C + I> (you can also use Tab)
+	move halway through file		50% (50 percent down)
+	see where you are in a file		<C + G>
+	move viewing window down		<C + d>
+	move viewing window up		<C + u>
+	center on cursor		zz (zb for bottom and zt for top)
+	scroll up		<C + e>
+	scroll down		<C + y>
+	search for word		*
+	search for word backwords		#
+	autocomplete		<C + y>
+	view definition		K
+	duplicate line		yyp
+	swapping 2 characters		xp
+	change case of selected		~
+	start insert mode on first nonblank char		I
+	start Append mode at end of line		A
+
+	Motions
+		d$		delete to end of line
+		c$		change to end of line
+		cw		change word
+		cc	        change line leaving proceeding whitespace
+		dd		delete line and copy
+		d2w		delete 2 words
+		f<		find first <
+		df>		delete to >
+		.		repeat command
+		y$,w,e,y		yank to end of line, word with whitespace, to end of word, entire line
+		daw		delete a word
+		cis		delete inner sentence
+		das		delete a sentence
+
+Command mode
+	quit without saving		:q!
+	reload original			:e!
+	show available autocompletes		<C + d>
+	autocomplete		tab
+	help visual mode		:help v_o (displays visual mode help for o)
+	help insert mode		:help i_CTRL-W (displays insert mode help for <C + W>)
+	help command line		:help c_% (displays help for % in command line)
+	help command mode		:help :s
+	help debugging		:help >cont (open help for debugging command cont)
+	help normal mode		:help g_CTRL-A (help for normal mode g + <C + A> command)
+	help registers		:help quote: (help about : register)
+	handling windows		:help windows.txt
+	help for errors		:help E297
+	run external command		:!{command}	example: !ls
+	repeat last command		.
+	select and copy all text	:%y+
+
+Search mode
+	search		/word<Enter>
+	move next		n
+	move previous		N
+	exit search		ESC
+	match any char		/.
+	matching a special char		/\. (to match on period, must preface with \ as it is a special character)
+
+Marks
+	you can set your own marks in file
+	use command :marks to see
+	m{a-z}		sets mark for letter (from a-z)
+	'{a-z}		go to mark letter
+
+Visual mode
+	enter visual mode		v
+	work on whole line visual mode		V
+	go to other side		o
+	reformat selected paragraph	gq
+	reformat selected	=
+	comment selected	gc
+	comment/uncomment selected 		Ctrl + /
+	select a sentence		vas
+
+Splits
+    Ctrl-w s → Split window horizontally
+    Ctrl-w v → Split window vertically

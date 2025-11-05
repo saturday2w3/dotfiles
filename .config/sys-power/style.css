@@ -1,0 +1,22 @@
+#sys-power {
+    background-color: rgba(30, 30, 46, 0.8);
+    border-radius: 12px;
+    padding: 10px;
+    width: 300px;
+    font-family: "Fira Code", monospace;
+    color: #cdd6f4;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    margin: 6px;
+    padding: 8px;
+    cursor: pointer;
+    color: #cdd6f4;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

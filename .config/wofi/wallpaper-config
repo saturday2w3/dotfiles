@@ -1,0 +1,9 @@
+width=1300
+height=700
+columns=3
+insensitive=true
+prompt=wallpaper
+image_size=580
+allow_images=true
+cache_file=/dev/null
+orientation=horizontal

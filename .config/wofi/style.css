@@ -1,0 +1,74 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 14px;
+}
+
+window {
+    margin: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    background-color: rgba(30, 35, 45, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+#input {
+    margin: 6px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(20, 25, 35, 0.9);
+    color: #FFFFFF;
+    font-size: 15px;
+    box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+#input:focus {
+    outline: none;
+    background-color: rgba(25, 30, 40, 0.6);
+    box-shadow: 0 0 1 0px rgba(255, 255, 255, 0.4);
+}
+
+#inner-box,
+#outer-box,
+#scroll {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#entry {
+    margin: 2px 8px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #FFFFFF;
+    transition: all 0.15s ease;
+}
+
+#entry:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#entry:selected {
+    background-color: rgba(211, 211, 211, 0.15);
+    border-left: 3px solid #FFFFFF;
+    padding-left: 9px;
+}
+
+#entry:selected #text {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+#text {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+scrollbar {
+    background-color: transparent;
+    width: 0px;
+}

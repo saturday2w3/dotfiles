@@ -1,0 +1,10 @@
+[general]
+# Set to true to enable confirmation dialogs for power actions
+confirm = true
+
+[actions]
+# Define custom actions or scripts to run on power events
+shutdown = "systemctl poweroff"
+reboot = "systemctl reboot"
+suspend = "systemctl suspend"
+hibernate = "systemctl hibernate"

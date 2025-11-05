@@ -1,0 +1,107 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 11px;
+}
+
+window {
+    margin: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    background-color: rgba(30, 35, 45, 0.25);
+}
+
+#input {
+    margin: 12px 12px 8px 12px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(20, 25, 35, 0.6);
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+#input:focus {
+    outline: none;
+    background-color: rgba(25, 30, 40, 0.9);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+
+#inner-box {
+    margin: 0px;
+    padding: 8px;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    padding: 0px;
+}
+
+#entry {
+    margin: 4px;
+    padding: 0px;
+    border-radius: 12px;
+    background-color: transparent;
+    transition: all 0.2s ease;
+    border: 3px solid transparent;
+    min-height: 580px;
+}
+
+#entry:hover {
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    transform: scale(1.02);
+}
+
+#entry:selected {
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    transform: scale(1.02);
+}
+
+#text {
+    font-size: 0px;
+    margin: 4px 0px 0px 0px;
+    padding: 4px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#entry image {
+    margin: 0px auto;
+    padding: 0px;
+    border-radius: 10px;
+    -gtk-icon-size: 580px;
+}
+
+#img {
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 8px;
+    margin-top -50px;
+    margin-left -75px;
+    width: 200px;
+    width: 900px;
+    overflow: hidden; 
+   -gtk-icon-size: 580px;
+}
+
+scrollbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+scrollbar slider {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    min-height: 30px;
+}
+
+scrollbar slider:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
