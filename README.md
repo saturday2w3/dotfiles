@@ -24,6 +24,8 @@ Everything you need to recreate my neon-cyberpunk Linux setup in seconds.
 
 ---
 
+## 📷 Showcase
+
 ## 📦 Installation
 
 ```bash
@@ -31,6 +33,4 @@ git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
 cp -r ~/.dotfiles/.config/* ~/.config/
 cp ~/.dotfiles/.zshrc ~/
 
----
 
-### 📷 Showcase
