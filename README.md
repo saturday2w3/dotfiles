@@ -25,7 +25,11 @@ Everything you need to recreate my neon-cyberpunk Linux setup in seconds.
 ---
 
 ## 📷 Showcase
-
+![Header Image](https://github.com/saturday2w3/dotfiles/blob/main/showcase5.png)
+![Header Image](https://github.com/saturday2w3/dotfiles/blob/main/showcase4.png)
+![Header Image](https://github.com/saturday2w3/dotfiles/blob/main/showcase1.png)
+![Header Image](https://github.com/saturday2w3/dotfiles/blob/main/showcase2.png)
+![Header Image](https://github.com/saturday2w3/dotfiles/blob/main/showcase-wofi.png)
 ## 📦 Installation
 
 ```bash
